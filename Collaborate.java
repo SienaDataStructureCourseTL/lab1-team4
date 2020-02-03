@@ -4,7 +4,7 @@
  *
  * @author Jim Teresco, modified by group members:
  * 
- * 1) replace with one group member's name
+ * 1) Tasila Apronia Kanswata
  *
  *
  * 2) replace with another group member's name
@@ -18,14 +18,12 @@ public class Collaborate
 {
 
     public static void main(String args[]) {
-     
+      System.out.println("Another print line by Tasila ");
         System.out.println("If one modifies above this line...");
         
-        System.out.println("I just wanted to modify the second one.");
+        System.out.println("And another modifies between the previous and this...");
         
-        System.out.println("And another modifies after this...") 
-        
-        System.out.println("This should be an added line.");
+        System.out.println("And another modifies after this...");
         
         System.out.println("git will save you from a copy and paste disaster.");
         
