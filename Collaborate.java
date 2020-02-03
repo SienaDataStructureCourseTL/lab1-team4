@@ -21,9 +21,11 @@ public class Collaborate
      
         System.out.println("If one modifies above this line...");
         
-        System.out.println("And another modifies between the previous and this...");
+        System.out.println("I just wanted to modify the second one.");
         
-        System.out.println("And another modifies after this...");
+        System.out.println("And another modifies after this...") 
+        
+        System.out.println("This should be an added line.");
         
         System.out.println("git will save you from a copy and paste disaster.");
         
