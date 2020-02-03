@@ -104,8 +104,15 @@ public class Matrix2D
     public int maxValue()
     {
         //add your code here
-        
-        return -1;
+        int max = 0;
+        for (int row = 0; row < data.length; row++) {
+            for (int col = 0; col < data.length; col++) {
+                if(data[row][col] > max){
+                    max = data[row][col];
+                }
+            }
+        }  
+        return max;
     }
     
     /**
