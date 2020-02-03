@@ -131,6 +131,14 @@ public class Matrix2D
         if (data.length != otr.data.length){
             return false;
         }
+        
+        for (int row = 0; row < data.length; row++) {
+            for (int col = 0; col < data.length; col++) {
+                if (data[row][col] != otr.data[row][col]){
+                    return false;
+                }
+            }
+        }  
 
         //add your code here
 
