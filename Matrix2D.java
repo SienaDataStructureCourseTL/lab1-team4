@@ -177,6 +177,11 @@ public class Matrix2D
     public void scale(int by)
     {
         //add your code here
+          for (int row = 0; row < data.length; row++) {
+            for (int col = 0; col < data.length; col++) {
+                data[row][col] = data[row][col] * by; 
+            }
+        } 
     }
 
     /**
