@@ -165,8 +165,15 @@ public class Matrix2D
         }
 
         //add your code here
+        Matrix2D other2 = new Matrix2D(data.length);
         
-        return null;
+         for (int row = 0; row < data.length; row++) {
+            for (int col = 0; col < data.length; col++) {
+                 other2.data[row][col] =  other.data[row][col]+ data[row][col] ;
+            }
+        }  
+        return other2;
+       
     }
 
     /**
