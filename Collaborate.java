@@ -7,7 +7,7 @@
  * 1) Tasila Apronia Kanswata
  *
  *
- * 2) replace with another group member's name
+ * 2) James Miller
  *
  *
  * 3) 3rd member if a group of 3 only
