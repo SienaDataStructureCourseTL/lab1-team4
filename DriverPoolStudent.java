@@ -5,7 +5,7 @@
  * dollar signs or there are more than two decimal
  * places.
  * 
- * @author 
+ * @author (Modified by Tasila Apronia Kanswata and James Miller)
  * @version Spring 2019
  */
 public class DriverPoolStudent
