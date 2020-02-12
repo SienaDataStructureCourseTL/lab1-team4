@@ -1,3 +1,19 @@
+/**
+ * This program is used to unit test the Pool class.
+ * The format of the dollar amount is not important.
+ * You should not be concerned that there are no 
+ * dollar signs or there are more than two decimal
+ * places.
+ * 
+ * @author Tasila Apronia Kanswata, James Miller 
+ * @version Spring 2019
+ */
+import java.util.Scanner; 
+public class DriverPoolStudent
+{
+    public static void main(String args[])
+    {
+        //1.  Create a Pool object.
         Pool p = new Pool();
 
         //2.  Test bounds of the range for pool days
